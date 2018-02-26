@@ -1,6 +1,7 @@
 body{
 	    width: 100%;
     overflow-x: hidden;
+    background-image: url("regal.png");
 }
 #logo{
 	
@@ -41,6 +42,9 @@ body{
     top: -600px;
 }
 
+
+
+
 @media only screen and (max-width: 684px) {
 	.main-title{
 			position: relative;
@@ -50,7 +54,11 @@ body{
 	}
 	#love{
 		font-size: 21px;
+		text-align: center;
 	}
+
+
+  
 }
 
 @media only screen and (min-width: 684px) and (max-width:900px){
@@ -60,6 +68,7 @@ body{
 		    top: -800px;
 		    margin: 10px;
 	}
+	
 
 
 }
@@ -67,7 +76,7 @@ body{
 @media only screen and (min-width: 900px) and (max-width:1300px){
 	.main-title{
 			position: relative;
-		    left: 20vh;
+		    left: 20%;
 		    top: -800px;
 		    margin: 10px;
 	}
@@ -76,10 +85,21 @@ body{
 @media only screen and (min-width: 1300px) and (max-width:2000px){
 	.main-title{
 			position: relative;
-		    left: 50vh;
+		    left: 30%;
 		    top: -800px;
 		    margin: 10px;
 	}
 }
 
+
+.bestfriend{
+	
+	background-image: url("regal.png");
+	margin-top: -600px;
+	position: relative;
+	z-index: 9;
+	padding-top: 5%;
+	padding-bottom: 10%;
+
+}
   
